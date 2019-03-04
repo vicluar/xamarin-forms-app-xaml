@@ -5,10 +5,14 @@
              x:Class="BethanysPieShopMobile.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Label Text="Bethany's Pie Shop"
+           FontSize="14"
            HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+           VerticalOptions="CenterAndExpand"></Label>
+        <Button x:Name="DemoButton" Text="Click me and start the magic"
+                HorizontalOptions="Center" Clicked="DemoButton_Clicked"
+                Margin="10"
+                VerticalOptions="CenterAndExpand"/>
     </StackLayout>
 
 </ContentPage>
