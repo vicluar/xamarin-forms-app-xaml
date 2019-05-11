@@ -12,7 +12,7 @@ namespace BethanysPieShopMobile
             InitializeComponent();
 
             //MainPage = new MainPage();
-            MainPage = new GridPage();
+            MainPage = new ContentPageView();
         }
 
         protected override void OnStart()
